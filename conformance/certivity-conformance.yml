@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.certivity.io/security-privacy
+standards:
+- id: iso-27001
+  name: ISO/IEC 27001:2024
+  conforms: true
+  evidence: >-
+    Certivity Security & Privacy page states the platform is certified to
+    ISO/IEC 27001:2024, the internationally recognized standard for information
+    security management.
+- id: tisax
+  name: TISAX
+  conforms: true
+  evidence: >-
+    Security & Privacy page lists TISAX, the automotive-industry security
+    assessment framework for handling sensitive data.
+- id: gdpr
+  name: GDPR
+  conforms: true
+  evidence: >-
+    Security & Privacy page states a completed GDPR audit and that the platform
+    is aligned with GDPR requirements.
+- id: soc2
+  name: SOC 2
+  conforms: false
+  evidence: No SOC 2 attestation published on the public security page.

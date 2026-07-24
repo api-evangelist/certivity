@@ -1,7 +1,30 @@
 aid: certivity
 name: Certivity
-description: Certivity is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Certivity is a Munich-based RegTech company, founded in 2021, that operates an
+  AI-native regulatory intelligence platform for regulated industries such as
+  automotive, aerospace, and connected vehicles. Its product, Certivity Core,
+  turns complex regulations, standards, and internal documents into structured,
+  machine-readable, engineering-ready requirements with full traceability and
+  real-time monitoring of legal changes across 50+ jurisdictions. The platform
+  digitizes and structures regulatory content from publishers such as ISO, IEC,
+  CEN, CENELEC, ASTM, UL, and SAE using a proprietary ingestion pipeline and a
+  regulatory knowledge graph, and integrates directly into engineering workflows
+  (including Jama Connect) via an official API. Backed by Earlybird, High-Tech
+  Gruenderfonds, UVC Partners, and Almaz Capital, Certivity added to the API
+  Evangelist network as a company profile and enrichment lead.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cms.certivity.io/assets/image-assets/certivity-logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/certivity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Regulatory Technology
+- RegTech
+- Compliance
+- Regulatory Intelligence
+- Automotive
+- Homologation
+- Engineering
+- Standards
+- Knowledge Graph
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/certivity-domain-security.yml
+- type: Website
+  url: https://www.certivity.io/
+- type: About
+  url: https://www.certivity.io/about-certivity
+- type: Platform
+  url: https://www.certivity.io/platform
+- type: TermsOfService
+  url: https://www.certivity.io/gtc
+- type: PrivacyPolicy
+  url: https://www.certivity.io/privacy-policy
+- type: LegalNotice
+  url: https://www.certivity.io/legal-notice
+- type: Compliance
+  url: https://www.certivity.io/security-privacy
+- type: TrustCenter
+  url: https://app.eu.vanta.com/certivity.io/trust/pkx4wh20u4knxug68uj22
+- type: Conformance
+  url: conformance/certivity-conformance.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/certivity
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

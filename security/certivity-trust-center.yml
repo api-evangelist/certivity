@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+url: https://app.eu.vanta.com/certivity.io/trust/pkx4wh20u4knxug68uj22
+platform: Vanta Trust Center
+certifications:
+- ISO/IEC 27001:2024
+- TISAX
+- GDPR
+security_practices:
+- Geo-redundant backups
+- Comprehensive risk management
+- Automated and manual penetration testing
+- Enterprise-grade SaaS architecture
+security_contact: contact@certivity.io
+evidence:
+- source: https://www.certivity.io/security-privacy
+  keywords: [iso 27001, tisax, gdpr, vanta trust center, penetration testing]
+- source: https://app.eu.vanta.com/certivity.io/trust/pkx4wh20u4knxug68uj22
+  keywords: [vanta, trust center]
