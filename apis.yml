@@ -13,6 +13,17 @@ description: >-
   (including Jama Connect) via an official API. Backed by Earlybird, High-Tech
   Gruenderfonds, UVC Partners, and Almaz Capital, Certivity added to the API
   Evangelist network as a company profile and enrichment lead.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
